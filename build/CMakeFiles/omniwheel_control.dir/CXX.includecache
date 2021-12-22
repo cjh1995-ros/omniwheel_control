@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/DCMotor.hpp
+
+../include/EncoderDCMotor.hpp
+DCMotor.hpp
+../include/DCMotor.hpp
+
+/home/cjh-laptop/ros2_ws/cpp_ws/omniwheel_control/EncoderDCMotor.cpp
+EncoderDCMotor.hpp
+/home/cjh-laptop/ros2_ws/cpp_ws/omniwheel_control/EncoderDCMotor.hpp
+ctime
+-
+iostream
+-
+
